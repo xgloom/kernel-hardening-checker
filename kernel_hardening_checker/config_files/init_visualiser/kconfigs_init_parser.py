@@ -18,7 +18,6 @@ DEFAULT_VALUE = 'unknown'
 
 
 def get_config_status(option: str, config_lines: Set[str]) -> Optional[bool]:
-    """Check if option is enabled, disabled, or not specified."""
     if f"{option}=y" in config_lines:
         return True
     if f"# {option} is not set" in config_lines:
@@ -27,7 +26,6 @@ def get_config_status(option: str, config_lines: Set[str]) -> Optional[bool]:
 
 
 def parse_config(path: Path) -> Dict[str, str]:
-    """Extract initialization settings from a config file."""
     try:
         config_lines = {line.strip() for line in path.read_text(errors='ignore').splitlines()}
         
