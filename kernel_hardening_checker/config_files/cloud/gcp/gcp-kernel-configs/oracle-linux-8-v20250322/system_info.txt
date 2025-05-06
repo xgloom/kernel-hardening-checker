@@ -1,0 +1,57 @@
+VM System Information
+Collection Date: Tue May  6 11:24:08 UTC 2025
+VM Hostname: temp-collect-oracle-linux-8-v20250322
+Image Used: oracle-linux-8-v20250322
+
+COMMAND: uname -a
+Linux temp-collect-oracle-linux-8-v20250322 5.15.0-306.177.4.el8uek.x86_64 #2 SMP Wed Feb 19 10:29:16 PST 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+COMMAND: lscpu
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              2
+On-line CPU(s) list: 0,1
+Thread(s) per core:  2
+Core(s) per socket:  1
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+BIOS Vendor ID:      Google
+CPU family:          6
+Model:               79
+Model name:          Intel(R) Xeon(R) CPU @ 2.20GHz
+Stepping:            0
+CPU MHz:             2200.178
+BogoMIPS:            4400.35
+Hypervisor vendor:   KVM
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            56320K
+NUMA node0 CPU(s):   0,1
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt nt_good arat md_clear arch_capabilities
+
+COMMAND: cat /etc/*-release
+Oracle Linux Server release 8.10
+NAME="Oracle Linux Server"
+VERSION="8.10"
+ID="ol"
+ID_LIKE="fedora"
+VARIANT="Server"
+VARIANT_ID="server"
+VERSION_ID="8.10"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Oracle Linux Server 8.10"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:oracle:linux:8:10:server"
+HOME_URL="https://linux.oracle.com/"
+BUG_REPORT_URL="https://github.com/oracle/oracle-linux"
+
+ORACLE_BUGZILLA_PRODUCT="Oracle Linux 8"
+ORACLE_BUGZILLA_PRODUCT_VERSION=8.10
+ORACLE_SUPPORT_PRODUCT="Oracle Linux"
+ORACLE_SUPPORT_PRODUCT_VERSION=8.10
+Red Hat Enterprise Linux release 8.10 (Ootpa)
+Oracle Linux Server release 8.10

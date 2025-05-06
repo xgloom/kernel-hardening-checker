@@ -1,0 +1,66 @@
+VM System Information
+Collection Date: Tue May  6 11:42:19 UTC 2025
+VM Hostname: temp-collect-ubuntu-minimal-pro-2004-focal-v20250425
+Image Used: ubuntu-minimal-pro-2004-focal-v20250425
+
+COMMAND: uname -a
+Linux temp-collect-ubuntu-minimal-pro-2004-focal-v20250425 5.15.0-1081-gcp #90~20.04.1-Ubuntu SMP Fri Apr 4 18:55:17 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+COMMAND: lscpu
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Byte Order:                           Little Endian
+Address sizes:                        46 bits physical, 48 bits virtual
+CPU(s):                               2
+On-line CPU(s) list:                  0,1
+Thread(s) per core:                   2
+Core(s) per socket:                   1
+Socket(s):                            1
+NUMA node(s):                         1
+Vendor ID:                            GenuineIntel
+CPU family:                           6
+Model:                                79
+Model name:                           Intel(R) Xeon(R) CPU @ 2.20GHz
+Stepping:                             0
+CPU MHz:                              2200.216
+BogoMIPS:                             4400.43
+Hypervisor vendor:                    KVM
+Virtualization type:                  full
+L1d cache:                            32 KiB
+L1i cache:                            32 KiB
+L2 cache:                             256 KiB
+L3 cache:                             55 MiB
+NUMA node0 CPU(s):                    0,1
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Mitigation; PTE Inversion
+Vulnerability Mds:                    Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Meltdown:               Mitigation; PTI
+Vulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; IBRS
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; IBRS; IBPB conditional; STIBP conditional; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Mitigation; Clear CPU buffers; SMT Host state unknown
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt arat md_clear arch_capabilities
+
+COMMAND: cat /etc/*-release
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=20.04
+DISTRIB_CODENAME=focal
+DISTRIB_DESCRIPTION="Ubuntu 20.04.6 LTS"
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal

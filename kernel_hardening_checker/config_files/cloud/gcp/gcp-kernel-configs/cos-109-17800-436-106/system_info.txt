@@ -1,0 +1,82 @@
+VM System Information
+Collection Date: Tue May  6 11:22:02 UTC 2025
+VM Hostname: temp-collect-cos-109-17800-436-106
+Image Used: cos-109-17800-436-106
+
+COMMAND: uname -a
+Linux temp-collect-cos-109-17800-436-106 6.1.124+ #1 SMP PREEMPT_DYNAMIC Sat Apr 19 14:16:03 UTC 2025 x86_64 Intel(R) Xeon(R) CPU @ 2.20GHz GenuineIntel GNU/Linux
+
+COMMAND: lscpu
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        46 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               2
+On-line CPU(s) list:                  0,1
+Vendor ID:                            GenuineIntel
+BIOS Vendor ID:                       Google
+Model name:                           Intel(R) Xeon(R) CPU @ 2.20GHz
+BIOS Model name:                        CPU @ 2.0GHz
+BIOS CPU family:                      1
+CPU family:                           6
+Model:                                79
+Thread(s) per core:                   2
+Core(s) per socket:                   1
+Socket(s):                            1
+Stepping:                             0
+BogoMIPS:                             4400.37
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt arat md_clear arch_capabilities
+Hypervisor vendor:                    KVM
+Virtualization type:                  full
+L1d cache:                            32 KiB (1 instance)
+L1i cache:                            32 KiB (1 instance)
+L2 cache:                             256 KiB (1 instance)
+L3 cache:                             55 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0,1
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Mitigation; PTE Inversion
+Vulnerability Mds:                    Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Meltdown:               Mitigation; PTI
+Vulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; IBRS
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; IBRS; IBPB conditional; STIBP conditional; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Mitigation; Clear CPU buffers; SMT Host state unknown
+
+COMMAND: cat /etc/*-release
+CHROMEOS_AUSERVER=https://tools.google.com/service/update2
+CHROMEOS_BOARD_APPID={76E245CF-C0D0-444D-BA50-36739C18EB00}
+CHROMEOS_CANARY_APPID={90F229CE-83E2-4FAF-8479-E368A34938B1}
+CHROMEOS_DEVSERVER=
+CHROMEOS_RELEASE_APPID={76E245CF-C0D0-444D-BA50-36739C18EB00}
+CHROMEOS_RELEASE_BOARD=lakitu
+CHROMEOS_RELEASE_BRANCH_NUMBER=436
+CHROMEOS_RELEASE_BUILD_NUMBER=17800
+CHROMEOS_RELEASE_BUILD_TYPE=Official Build
+CHROMEOS_RELEASE_CHROME_MILESTONE=109
+CHROMEOS_RELEASE_DESCRIPTION=17800.436.106 (Official Build) stable-channel lakitu 
+CHROMEOS_RELEASE_KEYSET=v10
+CHROMEOS_RELEASE_NAME=Chrome OS
+CHROMEOS_RELEASE_PATCH_NUMBER=106
+CHROMEOS_RELEASE_TRACK=stable-channel
+CHROMEOS_RELEASE_VERSION=17800.436.106
+DEVICETYPE=OTHER
+GOOGLE_RELEASE=17800.436.106
+HWID_OVERRIDE=LAKITU DEFAULT
+NAME="Container-Optimized OS"
+ID=cos
+PRETTY_NAME="Container-Optimized OS from Google"
+HOME_URL="https://cloud.google.com/container-optimized-os/docs"
+BUG_REPORT_URL="https://cloud.google.com/container-optimized-os/docs/resources/support-policy#contact_us"
+GOOGLE_METRICS_PRODUCT_ID=26
+GOOGLE_CRASH_ID=Lakitu
+KERNEL_COMMIT_ID=3d6073165b97be0111e2b25fbe5ace49f3f1f83c
+VERSION=109
+VERSION_ID=109
+BUILD_ID=17800.436.106

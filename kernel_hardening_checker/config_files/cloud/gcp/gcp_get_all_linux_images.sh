@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Fetch GCP public image project and names. Tested on Mon May  5 11:21:50 PM UTC 2025.
-# Run in GCP cloud shell.
 
 output_file="gcp_all_linux_images.csv"
 
