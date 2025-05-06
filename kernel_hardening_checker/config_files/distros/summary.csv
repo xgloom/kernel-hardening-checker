@@ -174,3 +174,4 @@ nixpkgs-linux_hardened,zero,zero
 nixpkgs-linux_latest,zero,zero
 nixpkgs-linux_lts,zero,zero
 rhel-8.0,unknown,unknown
+slackware_15.0_x86_64,none,none
